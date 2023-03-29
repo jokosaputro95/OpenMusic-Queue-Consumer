@@ -1,0 +1,26 @@
+{
+  "name": "openmusic-queue-consumer",
+  "version": "1.0.0",
+  "description": "Repository Apps tambahan pada Submission Kelas Dicoding Belajar Fundamental Aplikasi Back-End untuk memenuhi kriteria \"fitur Expor Lagu Pada Playlist\" menggunakan message broker RabbitMQ.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokosaputro95/OpenMusic-Queue-Consumer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jokosaputro95/OpenMusic-Queue-Consumer/issues"
+  },
+  "homepage": "https://github.com/jokosaputro95/OpenMusic-Queue-Consumer#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.1",
+    "pg": "^8.10.0"
+  }
+}
